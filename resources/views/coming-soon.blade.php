@@ -2,16 +2,16 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="h-full">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
         <title>Ugly Kitty</title>
 
         <!-- Styles -->
-        <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
         <!-- Scripts -->
-        <script src="{{ mix('js/app.js') }}" defer></script>
+        <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
     <body class="antialiased h-full">
         <div class="min-h-full pt-16 pb-12 flex flex-col bg-white">
@@ -19,7 +19,7 @@
             <div class="flex-shrink-0 flex justify-center">
             <a href="/" class="inline-flex">
                 <span class="sr-only">Ugly Kitty</span>
-                <img class="h-40 w-auto" src="/img/ugly-kitty-full-logo-01.png" alt="ugly kitty full logo">
+                <img class="h-40 w-auto" src="{{ asset('/img/ugly-kitty-full-logo-01.png') }}" alt="ugly kitty full logo">
             </a>
             </div>
             <div class="py-16">
