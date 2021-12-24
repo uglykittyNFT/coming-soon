@@ -25,7 +25,7 @@
             <div class="py-16">
             <div class="text-center">
                 <h1 class="mt-2 text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl">Coming Soon.</h1>
-                <p class="mt-2 text-base text-gray-500">Sorry, we couldn’t find the page you’re looking for.</p>
+                <p class="mt-2 text-base text-gray-500">Some amazing things are in the works.</p>
                 <div class="mt-6">
                 </div>
             </div>
